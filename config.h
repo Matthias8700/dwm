@@ -27,7 +27,7 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "3", "󰓇", "5", "6" };
+static const char *tags[] = { "󰊠", "󰈹", "3", "", "5", "6" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -37,7 +37,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "ghostty",     NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",     NULL,       NULL,       1 << 1,       0,           -1 },
-        { "Spotify",     NULL,       NULL,       1 << 3,       0,           -1 },
+    { "Spotify",     NULL,       NULL,       1 << 3,       0,           -1 },
 
 };
 
